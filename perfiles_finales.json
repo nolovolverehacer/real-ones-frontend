@@ -1,0 +1,82 @@
+{
+  "roles": [
+    {
+      "id": "DESCARADO_OFICIAL",
+      "umbral_minimo_pct": 70,
+      "titulo": "El Descarado Oficial",
+      "descripcion": "Sos la comidilla de la noche. Cada vez que había que señalar a alguien, el dedo apuntaba para tu lado — y en el fondo, un poco te encanta."
+    },
+    {
+      "id": "PROVOCADOR",
+      "umbral_minimo_pct": 50,
+      "titulo": "El Provocador",
+      "descripcion": "No sos el número uno, pero picás cerca. Generás opiniones fuertes, para bien o para mal."
+    },
+    {
+      "id": "COMODIN",
+      "umbral_minimo_pct": 30,
+      "titulo": "El Comodín",
+      "descripcion": "Ni tan expuesto ni tan invisible. El grupo te tiene fichado, pero no sos de armar escándalo."
+    },
+    {
+      "id": "BAJO_PERFIL",
+      "umbral_minimo_pct": 10,
+      "titulo": "El Bajo Perfil",
+      "descripcion": "Pasás bastante desapercibido en las rondas de acusaciones. O sos discreto de verdad, o sos muy bueno disimulando."
+    },
+    {
+      "id": "ANGEL_IMPOSIBLE",
+      "umbral_minimo_pct": 0,
+      "titulo": "El Ángel Imposible",
+      "descripcion": "Casi nadie te señaló en toda la noche. Sospechoso, la verdad."
+    }
+  ],
+
+  "signos": [
+    { "id": "ARIES", "emoji": "♈", "apertura": "Como buen Aries, atacás primero y pensás después — se nota." },
+    { "id": "TAURO", "emoji": "♉", "apertura": "Típico de Tauro: no te movés ni loco, y eso ya dice mucho." },
+    { "id": "GEMINIS", "emoji": "♊", "apertura": "Clásico de Géminis: nadie sabe con cuál de tus versiones se está peleando." },
+    { "id": "CANCER", "emoji": "♋", "apertura": "Como todo Cáncer, por fuera parecés inofensivo... por dentro guardás cada cosa." },
+    { "id": "LEO", "emoji": "♌", "apertura": "Con lo Leo que sos, ¿en serio pensaste que no ibas a ser el centro de la noche?" },
+    { "id": "VIRGO", "emoji": "♍", "apertura": "Típico de Virgo: juzgás en silencio y con Excel mental incluido." },
+    { "id": "LIBRA", "emoji": "♎", "apertura": "Como buen Libra, seguís sin poder decidir de qué lado estás — y se nota en cada voto." },
+    { "id": "ESCORPIO", "emoji": "♏", "apertura": "Con lo Escorpio que sos, esto ya lo veías venir. Y probablemente lo planeaste." },
+    { "id": "SAGITARIO", "emoji": "♐", "apertura": "Clásico de Sagitario: decís lo que piensa todo el mundo, sin filtro y sin arrepentimiento." },
+    { "id": "CAPRICORNIO", "emoji": "♑", "apertura": "Como buen Capricornio, hasta para esto tenías una estrategia." },
+    { "id": "ACUARIO", "emoji": "♒", "apertura": "Típico de Acuario: seguís jurando que sos distinto a todos... y el resultado dice otra cosa." },
+    { "id": "PISCIS", "emoji": "♓", "apertura": "Como todo Piscis, jurás que no tenías intención — pero los votos no mienten." }
+  ],
+
+  "alineacion": [
+    {
+      "id": "SIGUE_AL_REBANO",
+      "umbral_minimo_pct": 50,
+      "titulo": "El Que Sigue al Rebaño",
+      "descripcion": "Tus votos casi siempre coincidieron con lo que pensaba la mayoría de la mesa."
+    },
+    {
+      "id": "CONTRERAS",
+      "umbral_minimo_pct": 0,
+      "titulo": "El Contreras",
+      "descripcion": "Mientras todos iban para un lado, vos casi siempre elegiste el otro."
+    }
+  ],
+
+  "mecanica_dominante": [
+    {
+      "id": "FC",
+      "titulo": "Cara de Fuego Cruzado",
+      "descripcion": "Lo tuyo fueron las rondas de votación directa — ahí te definió el grupo más que en ningún otro lado."
+    },
+    {
+      "id": "RANKING",
+      "titulo": "Trepador del Ranking",
+      "descripcion": "Los rankings fueron los que más te marcaron esta partida."
+    },
+    {
+      "id": "QUE_HARIA",
+      "titulo": "El Juzgado",
+      "descripcion": "Tu juez secreto fue quien más definió cómo terminaste esta noche."
+    }
+  ]
+}
