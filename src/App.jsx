@@ -5,7 +5,7 @@ import html2canvas from 'html2canvas';
 import './App.css';
 import { QRCodeCanvas } from 'qrcode.react';
 
-const socket = io('http://localhost:3002');
+const socket = io('https://real-ones-backend.onrender.com');
 
 // Debe coincidir exactamente con los ids de perfiles_finales.json
 const SIGNOS = [
@@ -300,7 +300,7 @@ function App() {
           <h2 style={{ color: '#FFD700', marginBottom: '15px', letterSpacing: '2px' }}>SALA: {miSala}</h2>
 
           <div style={{ background: '#FFF', padding: '10px', borderRadius: '12px', marginBottom: '20px' }}>
-            <QRCodeCanvas value={`https://real-ones.vercel.app/?sala=${miSala}`} size={130} level={"H"} />
+            <QRCodeCanvas value={`https://real-ones-frontend.vercel.app/?sala=${miSala}`} size={130} level={"H"} />
           </div>
 
           <div style={{ display: 'flex', flexDirection: 'column', gap: '10px', width: '100%', marginBottom: '20px' }}>
