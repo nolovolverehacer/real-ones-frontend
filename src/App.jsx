@@ -413,10 +413,10 @@ function App() {
         <div style={{ width: '100%', maxWidth: '480px', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
           {resultadoRonda.tipo === 'FC' && (
             <div style={estilos.tarjetaReveal}>
-              <p style={{ color: '#A09FB1', fontWeight: '700', letterSpacing: '2px', textTransform: 'uppercase', fontSize: '0.8rem', marginBottom: '15px' }}>El grupo eligió a...</p>
-              <div style={{ fontSize: '4rem', marginBottom: '10px' }}>{resultadoRonda.ganador ? emojiDeSigno(resultadoRonda.ganador.avatar) : '🤷'}</div>
-              <h1 style={{ fontSize: '2.2rem', fontWeight: '900', color: '#FFD700' }}>{resultadoRonda.ganador ? resultadoRonda.ganador.nombre : '—'}</h1>
-              <p style={{ color: '#FF007A', fontWeight: '700', marginTop: '10px' }}>{resultadoRonda.votos} {resultadoRonda.votos === 1 ? 'voto' : 'votos'}</p>
+              <p style={{ color: '#A09FB1', fontWeight: '700', letterSpacing: '2px', textTransform: 'uppercase', fontSize: '0.85rem', marginBottom: '18px' }}>El grupo eligió a...</p>
+              <div style={{ fontSize: '5rem', marginBottom: '12px' }}>{resultadoRonda.ganador ? emojiDeSigno(resultadoRonda.ganador.avatar) : '🤷'}</div>
+              <h1 style={{ fontSize: '3.2rem', fontWeight: '900', color: '#FFD700', lineHeight: '1.1', wordBreak: 'break-word' }}>{resultadoRonda.ganador ? resultadoRonda.ganador.nombre : '—'}</h1>
+              <p style={{ color: '#FF007A', fontWeight: '700', marginTop: '14px', fontSize: '1.15rem' }}>{resultadoRonda.votos} {resultadoRonda.votos === 1 ? 'voto' : 'votos'}</p>
             </div>
           )}
 
@@ -439,11 +439,11 @@ function App() {
               </div>
             ) : (
               <div style={estilos.tarjetaReveal}>
-                <p style={{ color: '#A09FB1', fontWeight: '700', letterSpacing: '2px', textTransform: 'uppercase', fontSize: '0.8rem', marginBottom: '15px' }}>El veredicto fue...</p>
-                <h1 style={{ fontSize: '1.8rem', fontWeight: '900', color: '#FF007A', marginBottom: '10px' }}>
+                <p style={{ color: '#A09FB1', fontWeight: '700', letterSpacing: '2px', textTransform: 'uppercase', fontSize: '0.85rem', marginBottom: '18px' }}>El veredicto fue...</p>
+                <h1 style={{ fontSize: '2.6rem', fontWeight: '900', color: '#FF007A', marginBottom: '14px', lineHeight: '1.15', wordBreak: 'break-word' }}>
                   {resultadoRonda.objetivos.map(o => o.nombre).join(' · ')}
                 </h1>
-                <p style={{ color: '#FFD700', fontStyle: 'italic' }}>"{resultadoRonda.textoOpcion}"</p>
+                <p style={{ color: '#FFD700', fontStyle: 'italic', fontSize: '1.1rem' }}>"{resultadoRonda.textoOpcion}"</p>
               </div>
             )
           )}
